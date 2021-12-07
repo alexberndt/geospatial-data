@@ -6,6 +6,9 @@ authors = ["Alex Berndt <berndtae@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+pystac = "^1.2.0"
+jupyterlab = "^3.2.4"
+rasterio = "^1.2.10"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"

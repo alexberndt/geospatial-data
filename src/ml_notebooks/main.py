@@ -8,7 +8,7 @@ import rasterio
 from tempfile import TemporaryDirectory
 from pathlib import Path
 import typing
-from typing import List, Tuple
+from typing import Dict, List, Tuple
 from logging import DEBUG, Logger
 from rasterio.warp import calculate_default_transform
 from shapely.geometry import Polygon, mapping
@@ -47,7 +47,6 @@ def main() -> None:
 
     create_STAC_Items(
         item_ids=item_ids,
-        item_type='PSScene4Band',
     )
 
 
@@ -57,15 +56,15 @@ def _load_from_json(file):
         data = json.load(f)
         return data
 
-def create_STAC_Item(tiff_path: str, metadata_json: str) -> List[str]:
+def create_STAC_Item(tiff_path: str, metadata_json: Dict) -> Tuple[List[str], Tuple]:
     """Creates a STAC item.
     
     Args:
         tiff_path (str): path to the .tif file
-        metadata_json (str): 
+        metadata_json (Dict): dict content of metadata.json file
         
     Returns:
-        
+        List of STAC items.
     """
 
     with rasterio.open(tiff_path) as sample_cog:
@@ -115,7 +114,6 @@ def create_STAC_Item(tiff_path: str, metadata_json: str) -> List[str]:
 
 def create_STAC_Items(
     item_ids: List[str],
-    item_type: str,
 ) -> List[Tuple]:
     """ Create STAC Items.
     

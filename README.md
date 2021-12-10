@@ -12,8 +12,14 @@ poetry install
 
 ## Entrypoints
 
-This repository consists of 
+This repository consists of
 
 1. Jupyter Notebook
-   
+
    Go to `src/ml_notebooks/stac/stac.ipynb`
+
+## Assets Folder
+
+The assets are saved as follows
+
+![file structure diagram](.github/markdown/file_structure.png "File Structure")

@@ -21,8 +21,8 @@ ASSET_DIR = 'assets/'
 def main() -> None:
 
     catalog = pystac.Catalog(id='overstory-stac', description='Overstory STAC Catalog.')
-    print(list(catalog.get_all_items()))
-    print(list(catalog.get_children()))
+    # print(list(catalog.get_all_items()))
+    # print(list(catalog.get_children()))
 
     # Define item id's saved in `./assets/` dir
     item_ids = [
@@ -40,14 +40,16 @@ def main() -> None:
         metadata_file = os.path.join(ASSET_DIR, 'metadata', f'{item_id}_metadata.json') 
         metadata_data = dict(_load_from_json(metadata_file))
         
-        print(metadata_data['id'])
-        print(metadata_data['properties'])
-        print(metadata_data['properties']["acquired"][:-1])
+        # print(metadata_data['id'])
+        # print(metadata_data['properties'])
+        # print(metadata_data['properties']["acquired"][:-1])
 
 
-    create_STAC_Items(
-        item_ids=item_ids,
-    )
+    stac_items = create_STAC_Items(item_ids=item_ids)
+
+    for _, item in enumerate(stac_items):
+        catalog.add_item(item[0])
+        print(json.dumps(item[0].to_dict(), indent=4))
 
 
 def _load_from_json(file):

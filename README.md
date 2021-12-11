@@ -10,6 +10,12 @@ cd planet-stac
 poetry install
 ```
 
+Get started with a jupyter notebook by running
+
+```bash
+poetry run jupyter-lab
+```
+
 ## Entrypoints
 
 This repository consists of

@@ -5,7 +5,7 @@ description = ""
 authors = ["Alex Berndt <berndtae@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.8,<3.10.0"
 pystac = "^1.2.0"
 jupyterlab = "^3.2.4"
 rasterio = "^1.2.10"
@@ -15,6 +15,9 @@ planetary-computer = "^0.4.4"
 xarray-spatial = "^0.3.0"
 dask-gateway = "^0.9.0"
 Shapely = "^1.8.0"
+coiled = "^0.0.58"
+matplotlib = "^3.5.1"
+distributed = "^2021.12.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"

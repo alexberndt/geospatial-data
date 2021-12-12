@@ -1,0 +1,81 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "20210922_100732_ssc12_u0002",
+  "properties": {
+    "gsd": 0.77,
+    "datetime": "2021-09-22T10:07:32.750000Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          7.320691280803409,
+          47.188109906367934
+        ],
+        [
+          7.320691280803409,
+          47.27309268709849
+        ],
+        [
+          7.410624065823953,
+          47.27309268709849
+        ],
+        [
+          7.410624065823953,
+          47.188109906367934
+        ],
+        [
+          7.320691280803409,
+          47.188109906367934
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "COG": {
+      "href": "/home/alex/github_repos/ml-notebooks/assets/20210922_100732_ssc12_u0002/files/20210922_100732_ssc12_u0002_pansharpened_cog_rgb.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "20210922_100732_ssc12_u0002 - COG PSScene4Band",
+      "roles": [
+        "analytic"
+      ]
+    },
+    "UDM2": {
+      "href": "/home/alex/github_repos/ml-notebooks/assets/20210922_100732_ssc12_u0002/files/SkySatCollect/20210922_100732_ssc12_u0002/pansharpened_udm2/20210922_100732_ssc12_u0002_pansharpened_udm2.tif",
+      "type": "image/tiff",
+      "title": "20210922_100732_ssc12_u0002 - Usable Data Masks (UDM2)",
+      "roles": [
+        "analytic"
+      ]
+    },
+    "UDM": {
+      "href": "/home/alex/github_repos/ml-notebooks/assets/20210922_100732_ssc12_u0002/files/SkySatCollect/20210922_100732_ssc12_u0002/pansharpened_udm2/20210922_100732_ssc12_u0002_pansharpened_udm.tif",
+      "type": "image/tiff",
+      "title": "20210922_100732_ssc12_u0002 - Unusable Data Masks (UDM)",
+      "roles": [
+        "analytic"
+      ]
+    }
+  },
+  "bbox": [
+    7.320691280803409,
+    47.188109906367934,
+    7.410624065823953,
+    47.27309268709849
+  ],
+  "stac_extensions": []
+}

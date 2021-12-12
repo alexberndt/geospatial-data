@@ -1,0 +1,68 @@
+{
+  "type": "Catalog",
+  "id": "overstory-stac",
+  "stac_version": "1.0.0",
+  "description": "Overstory STAC Catalog.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20210922_100732_ssc12_u0002/20210922_100732_ssc12_u0002.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20210922_100732_ssc12_u0001/20210922_100732_ssc12_u0001.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20210710_133141_ssc8_u0001/20210710_133141_ssc8_u0001.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20210528_131522_ssc9_u0001/20210528_131522_ssc9_u0001.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20210425_100412_ssc3_u0002/20210425_100412_ssc3_u0002.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./20210425_100412_ssc3_u0001/20210425_100412_ssc3_u0001.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "search",
+      "href": "/home/alex/github_repos/ml-notebooks/catalog/20210922_100732_ssc12_u0002/20210922_100732_ssc12_u0002.json"
+    },
+    {
+      "rel": "search",
+      "href": "/home/alex/github_repos/ml-notebooks/catalog/20210922_100732_ssc12_u0001/20210922_100732_ssc12_u0001.json"
+    },
+    {
+      "rel": "search",
+      "href": "/home/alex/github_repos/ml-notebooks/catalog/20210710_133141_ssc8_u0001/20210710_133141_ssc8_u0001.json"
+    },
+    {
+      "rel": "search",
+      "href": "/home/alex/github_repos/ml-notebooks/catalog/20210528_131522_ssc9_u0001/20210528_131522_ssc9_u0001.json"
+    },
+    {
+      "rel": "search",
+      "href": "/home/alex/github_repos/ml-notebooks/catalog/20210425_100412_ssc3_u0002/20210425_100412_ssc3_u0002.json"
+    },
+    {
+      "rel": "search",
+      "href": "/home/alex/github_repos/ml-notebooks/catalog/20210425_100412_ssc3_u0001/20210425_100412_ssc3_u0001.json"
+    }
+  ],
+  "stac_extensions": []
+}

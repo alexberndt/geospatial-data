@@ -16,16 +16,28 @@ Get started with a jupyter notebook by running
 poetry run jupyter-lab
 ```
 
-## Entrypoints
+## Notebooks
 
 This repository consists of
 
-1. Jupyter Notebook
+1. STAC Registry and Querying
+   
+   1. `src/ml_notebooks/stac/stac.ipynb`
+   2. `src/ml_notebooks/stac/read_stac_api.ipynb`
 
-   Go to `src/ml_notebooks/stac/stac.ipynb`
+   with helper functions written in a separate file `src/ml_notebooks/stac/helper.py` to aide with code readability.
+
+2. Exploration of Provided Satellite Data
+
+   1. `src/ml_notebooks/stac/explore_data.ipynb`
+
+3. Monthly Mosaic
+
+   1. `src/ml_notebooks/conda/monthly_mosaic.ipynb`
+   
 
 ## Assets Folder
 
 The assets are saved as follows
 
-![file structure diagram](.github/markdown/file_structure.png "File Structure")
+![file structure diagram](.github/markdown/assets.png "File Structure")

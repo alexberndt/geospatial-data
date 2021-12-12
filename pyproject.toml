@@ -16,6 +16,8 @@ xarray-spatial = "^0.3.0"
 dask-gateway = "^0.9.0"
 Shapely = "^1.8.0"
 coiled = "^0.0.58"
+matplotlib = "^3.5.1"
+distributed = "^2021.12.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"

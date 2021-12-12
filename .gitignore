@@ -3,3 +3,4 @@
 .ipynb_checkpoints/
 *.tif
 assets_test/
+__pycache__/

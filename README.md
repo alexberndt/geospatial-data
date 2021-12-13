@@ -39,7 +39,7 @@ This repository consists of
 
    1. `src/ml_notebooks/conda/monthly_mosaic.ipynb`
 
-   I was struggling to get the STAC registry working as intended, so ended up testing the _coiled_-based cloud cluster using the example STAC provided by Planetary Computer. The results are documented in this notebook:
+   > As mentioned above, I was struggling getting the STAC queries to work without error, so ended up testing the _coiled_-based cloud cluster using the example STAC provided by Planetary Computer. The results are documented in this notebook:
 
    1. `src/ml_notebooks/conda/median_mosaic.ipynb`
    

@@ -43,6 +43,9 @@ This repository consists of
 
    1. `src/ml_notebooks/conda/median_mosaic.ipynb`
    
+4. COG Visualization
+
+   1. `src/ml_notebooks/cog/cog_visualizations.ipynb`
 
 ## Assets Folder
 

@@ -27,6 +27,10 @@ This repository consists of
 
    with helper functions written in a separate file `src/ml_notebooks/stac/helper.py` to aide with code readability.
 
+   > Although `catalog.validate()` passed all checks, I was struggling to query data using the `pystac_client` tool. Any idea as to what I was doing wrong?
+
+   To avoid being blocked by this, I used a publicly available STAC catalog to test STAC queries with (see `read_stac_api.ipynb` notebook).
+
 2. Exploration of Provided Satellite Data
 
    1. `src/ml_notebooks/stac/explore_data.ipynb`
@@ -34,6 +38,10 @@ This repository consists of
 3. Monthly Mosaic
 
    1. `src/ml_notebooks/conda/monthly_mosaic.ipynb`
+
+   I was struggling to get the STAC registry working as intended, so ended up testing the _coiled_-based cloud cluster using the example STAC provided by Planetary Computer. The results are documented in this notebook:
+
+   1. `src/ml_notebooks/conda/median_mosaic.ipynb`
    
 
 ## Assets Folder

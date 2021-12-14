@@ -1,6 +1,12 @@
-# Ingesting Planet STAC Data
+# Introduction to Geospatial Data
 
-This repository serves as an entry-point into the use of a Spatio-Temporal Asset Catalog (STAC) is, and how it can be used to analyze satellite data.
+This repository serves as a brief introduction into the field of geo-spatial data. The objective is to play around with various solutions proposed by the geo-spatial and GIS communities. 
+
+Specifically, this repository covers
+
+1. Spatio-Temporal Asset Catalog (STAC) creation and querying using `pystac` and `pystac_client`.
+2. Creating monthly mosaics of satellite data using `Dask`.
+3. Cloud Optimized GeoTIFFs (COGs) and the use of tilers using `titiler`.
 
 ## Get Started
 
@@ -52,3 +58,13 @@ This repository consists of
 The assets are saved as follows
 
 ![file structure diagram](.github/markdown/assets.png "File Structure")
+
+## Technologies
+
+Here follows a list of technologies commonly used to solve ML-related problems in the geo-spatial industry:
+
+1. [Dask](https://dask.org/)
+2. [Xarray](https://xarray.pydata.org/en/stable/)
+3. [Coiled](https://coiled.io/)
+4. [Dagster](https://dagster.io/)
+5. [PySTAC](https://pystac.readthedocs.io/en/1.0/#)

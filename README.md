@@ -11,8 +11,8 @@ Specifically, this repository covers
 ## Get Started
 
 ```bash
-git clone git@github.com:alexberndt/planet-stac
-cd planet-stac
+git clone git@github.com:alexberndt/geospatial-data
+cd geospatial-data
 poetry install
 ```
 
